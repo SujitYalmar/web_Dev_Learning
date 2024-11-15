@@ -9,7 +9,7 @@ This repository contains the code for building a Netflix-inspired home page usin
 # Preview 
 
 ![Screenshot 2024-11-15 163126](https://github.com/user-attachments/assets/c02d1852-5d76-48fe-8f38-17a955f2e085)
-# Card1
+# Order Summary Card
 
 # Preview
 ![Screenshot 2024-11-15 163819](https://github.com/user-attachments/assets/973c30ce-fd44-4130-ba85-305e77337b75)
