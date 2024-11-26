@@ -15,3 +15,7 @@ This repository contains the code for building a Netflix-inspired home page usin
 
 ![Screenshot 2024-11-15 163126](https://github.com/user-attachments/assets/c02d1852-5d76-48fe-8f38-17a955f2e085)
 
+# Blog Website
+
+# Preview
+![Screenshot 2024-11-26 153427](https://github.com/user-attachments/assets/cfe86753-ee9f-445c-a717-f992cf7b72e9)
