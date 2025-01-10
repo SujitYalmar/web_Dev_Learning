@@ -4,7 +4,7 @@ This repository contains the code for building a Netflix-inspired home page usin
 # Rock Paper Scissors Game
 
 # Preview
-
+![Screenshot 2025-01-09 084725](https://github.com/user-attachments/assets/46fcfaf4-70e7-4764-b7cd-ebc3a32c387e)
 
 # Netflix-Clone
 
