@@ -1,5 +1,10 @@
 
-This repository contains the code for building a Netflix-inspired home page using HTML,CSS and JAVASCRIPT. The project aims to recreate the visual design and layout of the Netflix home page, providing a starting point for creating similar interfaces or learning web development techniques.
+This repository contains the code for building a page using HTML,CSS and JAVASCRIPT. The project aims to recreate the visual design and layout of the page, providing a starting point for creating similar interfaces or learning web development techniques.
+
+# Rock Paper Scissors Game
+
+# Preview
+![Screenshot 2025-01-09 084725](https://github.com/user-attachments/assets/46fcfaf4-70e7-4764-b7cd-ebc3a32c387e)
 
 # Netflix-Clone
 
@@ -20,4 +25,4 @@ This repository contains the code for building a Netflix-inspired home page usin
 # Blog Website
 
 # Preview
-![Screenshot 2024-11-26 153427](https://github.com/user-attachments/assets/cfe86753-ee9f-445c-a717-f992cf7b72e9)
+![Screenshot 2024-11-26 153427](https://github.com/user-attachments/assets/cfe86753-ee9f-445c-a717-f992cf7b72e9) 
