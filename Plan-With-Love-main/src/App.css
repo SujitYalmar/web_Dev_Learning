@@ -1,0 +1,78 @@
+/* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Rubik&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    font-size :3rem;
+    margin: 6vh;
+    border: 7px dashed darkblue;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px ;
+    align-items: center;
+    box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+     object-fit: cover;
+}
+
+.tour-info{
+    margin: 20px auto;
+    font-weight:bold ;
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    font-weight:bolder ;
+}
+
+.description{
+    font-weight:600 ;
+}
