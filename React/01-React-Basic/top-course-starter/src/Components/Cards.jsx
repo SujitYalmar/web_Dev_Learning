@@ -7,20 +7,9 @@ const Cards = (props) => {
 
     let category = props.category;
     const [likedCourses, setLikedCourses] = useState([]);
-    //   let allCourse = [];
-
-    // It Returns list of all courses received from the api Response
-
-    // const getCourses = () => {
-    //     Object.values(props.courses).forEach((courseCategory) => {
-    //         courseCategory.forEach((course) => {
-    //             allCourse.push(course);
-    //         });
-    //     });
-    //     return allCourse;
-    // };
 
     function getCourses() {
+        if (!props.courses) return []; // <-- Add this line
         if (category === "All") {
             let allCourses = [];
             Object.values(props.courses).forEach((array) => {
@@ -30,18 +19,16 @@ const Cards = (props) => {
             });
             return allCourses;
         }
-        else
-        {
-            return props.courses[category];
+        else {
+            return props.courses[category] || []; // <-- Add fallback here
         }
     }
 
-    //   console.log(allCourse);
     return (
         <div className="flex flex-wrap justify-center gap-4 mb-4">
             {
                 getCourses().map((course) => {
-                    return <Card course={course} key={props.courses.id} likedCourses={likedCourses} setLikedCourses={setLikedCourses} />;
+                    return <Card course={course} key={course.id} likedCourses={likedCourses} setLikedCourses={setLikedCourses} />;
                 })
             }
         </div>
